@@ -221,3 +221,90 @@ article {
     background-color: #FE9602;
     transform: scale(1.1);
 }
+
+.bioimpedancia {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    filter: blur(2px);
+    transition: 2s;
+}
+
+.consultorio {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    filter: blur(2px);
+    transition: 2s;
+}
+
+.saladeespera {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    filter: blur(2px);
+    transition: 2s;
+}
+
+.bioimpedancia:hover {
+    transform: scale(1.1);
+    filter: blur(0px);
+    transition: 2s;
+}
+
+.consultorio:hover {
+    transform: scale(1.1);
+    filter: blur(0px);
+    transition: 2s;
+}
+
+.saladeespera:hover {
+    transform: scale(1.1);
+    filter: blur(0px);
+    transition: 2s;
+}
+
+.cajacontacto {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.icono1 {
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+}
+
+.texto1 {
+    display: flex;
+    align-items: center;
+}
+
+.articlecontact {
+    display: flex;
+    justify-content: center;
+    border: solid #FFFFFF;
+}
+
+.imagen1 {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.cajaiconos {
+    display: flex;
+    align-items: center;
+}
+
+  .logo2 {
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
